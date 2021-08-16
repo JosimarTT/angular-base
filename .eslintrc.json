@@ -16,7 +16,7 @@
         "airbnb-typescript/base",
 
         // Settings for Prettier
-        "prettier/@typescript-eslint",
+        "prettier",
         "plugin:prettier/recommended"
       ],
       "rules": {
