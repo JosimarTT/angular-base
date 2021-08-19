@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { HttpRequestInterceptor } from './interceptors/http-request.interceptor';
 
 @NgModule({
   declarations: [],
-  imports: [],
+  imports: [HttpClientModule],
   providers: [
     {
       provide: HTTP_INTERCEPTORS,
